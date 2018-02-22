@@ -1,0 +1,18 @@
+.text.0
+lab1:
+XOR R1, R1, R2, R2
+NOT R1, R2
+STORE R0, #0x200
+.text.1
+INT R2
+RET
+PUSH R1 R2
+POP R11
+ASL R3, R3, R3
+lab1:
+MOD R5, R6, R7 NOT R8, R9
+1kraj:
+JMP R6
+CALL lab1
+.end
+
